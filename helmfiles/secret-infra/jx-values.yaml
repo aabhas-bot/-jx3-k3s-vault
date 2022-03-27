@@ -43,7 +43,7 @@ jxRequirements:
     kind: ingress
     namespaceSubDomain: .secret-infra.
     tls:
-      email: ""
+      email: gabbiecarter0236@gmail.com
       enabled: false
       production: false
   pipelineUser:
