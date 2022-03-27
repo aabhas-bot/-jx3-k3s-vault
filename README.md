@@ -75,6 +75,7 @@ vault write auth/kubernetes/config \
 vault write /auth/kubernetes/role/jx-vault bound_service_account_names='*' bound_service_account_namespaces=secret-infra token_policies=jx-policy token_no_default_policy=true disable_iss_validation=true
 ```
 
+
 - Create a policy attached to vault role:
 ```bash
 vault policy write jx-policy - <<EOF
@@ -86,4 +87,4 @@ EOF
 
 ## Set up ingress and webhook
 * To set up webhook, you need to set up ngrok.
-dummy text added
+dummy text added 2
